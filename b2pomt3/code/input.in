@@ -1,0 +1,57 @@
+[general]
+use_gpu = True
+generate_segemented_dataset = True
+train_autoencoder = False
+
+
+[optimizer]
+learning_rate = 0.001
+momentum = 0.9
+nepoch = 1000
+batch_size = 16
+
+[model]
+name = CONV1DBN
+hidden_size = 16
+dropout = 0.1
+n_layers = 1
+kernel_size = 8
+pool_size = 4
+
+[loss]
+weight1 = 1
+weight2 = 1
+weight3 = 1
+weight4 = 1
+
+[loader]
+num_workers = 0
+
+[path]
+model = Models/baselineom.final
+tensorboard = Tensorboard/UnsupervisedAutoEncoder
+training_dataset = fakedata/MILA_TrainLabeledData.dat
+validation_dataset = fakedata/MILA_ValidationLabeledData.dat
+unlabeled_dataset = /rap/jvb-000-aa/COURS2019/etudiants/data/omsignal/myHeartProject/MILA_UnlabeledData.dat
+segmented_unlabeled_dataset = /rap/jvb-000-aa/COURS2019/etudiants/submissions/b2pomt3/OMSignal_SegmentedData_unlabeled_random.dat
+segmented_labeled_dataset = /rap/jvb-000-aa/COURS2019/etudiants/submissions/b2pomt3/OMSignal_Segmented_TrainLabeledData.dat
+
+[autoencoder]
+model = AutoEncoder_3l_v2
+hidden_size = 32,32,32
+kernel_size = 13,9,5,5,10,13
+stride = 1,1,1,1,1,1
+padding = 6,4,2,2,4,6
+batch_size = 32
+n_epochs = 50
+criterion = MSELoss
+optimizer = Adam
+learning_rate = 0.0001
+checkpoint = None
+output_dir =  /rap/jvb-000-aa/COURS2019/etudiants/submissions/b2pomt3/
+file_suffix = train2
+
+[encoder]
+encoder_transform = False
+encoder_path = /checkpoint/AutoEncoder_2l_Adam_train3.tar
+encoder_model = AutoEncoder_2l

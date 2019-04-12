@@ -1,0 +1,28 @@
+
+
+
+
+Starting process.....
+Training model.....
+Testing model.....
+
+ID: 0.6125
+PR: 0.7628558043689845
+RT: 0.8587828381074056
+RR: 0.38295530514277026
+Set compute mode to DEFAULT for GPU 00000000:14:00.0.
+All done.
+
+
+
+
+Starting process.....
+Training model.....
+Testing model.....
+
+ID: 0.6375
+PR: 0.7461865165390293
+RT: 0.8660166799958766
+RR: 0.3478910337213629
+Set compute mode to DEFAULT for GPU 00000000:14:00.0.
+All done.

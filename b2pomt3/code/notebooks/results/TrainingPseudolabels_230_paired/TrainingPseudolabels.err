@@ -1,0 +1,754 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/2.1.1
+
+[33mWARNING:[0m underlay of /usr/bin/nvidia-smi required more than 50 (668) bind mounts
+Start training.
+Epoch : 0
+Start validation.
+Epoch train total loss : 10.346627235412598
+Epoch valid total loss : 11.342857360839844
+Epoch train ID loss : 2.5725135803222656
+Epoch valid ID loss : 3.5610387325286865
+Epoch train PR loss : 8.476481437683105
+Epoch valid PR loss : 11.371133804321289
+Epoch train RT loss : 30.12866973876953
+Epoch valid RT loss : 28.232662200927734
+Epoch train RR loss : 2.8379311561584473
+Epoch valid RR loss : 2.8663265705108643
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 1
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 1.0803592205047607
+Epoch valid total loss : 9.510774612426758
+Epoch train ID loss : 0.18447937071323395
+Epoch valid ID loss : 9.702194213867188
+Epoch train PR loss : 0.7308106422424316
+Epoch valid PR loss : 4.677699565887451
+Epoch train RT loss : 2.3928680419921875
+Epoch valid RT loss : 1.6262753009796143
+Epoch train RR loss : 1.5401999950408936
+Epoch valid RR loss : 2.4411275386810303
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 2
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.7312134504318237
+Epoch valid total loss : 8.762489318847656
+Epoch train ID loss : 0.13545703887939453
+Epoch valid ID loss : 8.673850059509277
+Epoch train PR loss : 0.48983234167099
+Epoch valid PR loss : 4.7753825187683105
+Epoch train RT loss : 1.1677205562591553
+Epoch valid RT loss : 1.8991295099258423
+Epoch train RR loss : 1.456686019897461
+Epoch valid RR loss : 2.442538022994995
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 3
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.6693890690803528
+Epoch valid total loss : 9.716794967651367
+Epoch train ID loss : 0.13309557735919952
+Epoch valid ID loss : 9.983321189880371
+Epoch train PR loss : 0.4716131091117859
+Epoch valid PR loss : 4.960480690002441
+Epoch train RT loss : 0.9075260758399963
+Epoch valid RT loss : 1.2350279092788696
+Epoch train RR loss : 1.4354233741760254
+Epoch valid RR loss : 2.455176830291748
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 4
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.6451606750488281
+Epoch valid total loss : 9.678033828735352
+Epoch train ID loss : 0.13034358620643616
+Epoch valid ID loss : 9.863265037536621
+Epoch train PR loss : 0.44529709219932556
+Epoch valid PR loss : 5.227515697479248
+Epoch train RT loss : 0.8451202511787415
+Epoch valid RT loss : 1.2442659139633179
+Epoch train RR loss : 1.4140115976333618
+Epoch valid RR loss : 2.4653377532958984
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 5
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.6357751488685608
+Epoch valid total loss : 9.737438201904297
+Epoch train ID loss : 0.12824547290802002
+Epoch valid ID loss : 10.135149002075195
+Epoch train PR loss : 0.4335023760795593
+Epoch valid PR loss : 4.544636249542236
+Epoch train RT loss : 0.8316410183906555
+Epoch valid RT loss : 1.1407618522644043
+Epoch train RR loss : 1.4007506370544434
+Epoch valid RR loss : 2.4611854553222656
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 6
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.6113798022270203
+Epoch valid total loss : 9.261758804321289
+Epoch train ID loss : 0.12877538800239563
+Epoch valid ID loss : 9.434843063354492
+Epoch train PR loss : 0.4253971576690674
+Epoch valid PR loss : 5.038361072540283
+Epoch train RT loss : 0.7345126867294312
+Epoch valid RT loss : 1.0707048177719116
+Epoch train RR loss : 1.3818867206573486
+Epoch valid RR loss : 2.4603514671325684
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 7
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.6002990007400513
+Epoch valid total loss : 9.977534294128418
+Epoch train ID loss : 0.1262996941804886
+Epoch valid ID loss : 10.435441970825195
+Epoch train PR loss : 0.41445261240005493
+Epoch valid PR loss : 4.717695236206055
+Epoch train RT loss : 0.7134683132171631
+Epoch valid RT loss : 0.9649479985237122
+Epoch train RR loss : 1.3683750629425049
+Epoch valid RR loss : 2.463256359100342
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 8
+Start validation.
+Epoch train total loss : 0.6097046136856079
+Epoch valid total loss : 9.277640342712402
+Epoch train ID loss : 0.1252688467502594
+Epoch valid ID loss : 9.357999801635742
+Epoch train PR loss : 0.4118466377258301
+Epoch valid PR loss : 5.102208614349365
+Epoch train RT loss : 0.7905929088592529
+Epoch valid RT loss : 1.3335374593734741
+Epoch train RR loss : 1.3450084924697876
+Epoch valid RR loss : 2.5204591751098633
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 9
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5878346562385559
+Epoch valid total loss : 9.376564025878906
+Epoch train ID loss : 0.12443955987691879
+Epoch valid ID loss : 9.60287857055664
+Epoch train PR loss : 0.4062994718551636
+Epoch valid PR loss : 4.822804927825928
+Epoch train RT loss : 0.7002038955688477
+Epoch valid RT loss : 1.1594839096069336
+Epoch train RR loss : 1.334911823272705
+Epoch valid RR loss : 2.4890217781066895
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 10
+Start validation.
+Epoch train total loss : 0.6007581949234009
+Epoch valid total loss : 9.62778377532959
+Epoch train ID loss : 0.12419690191745758
+Epoch valid ID loss : 9.982263565063477
+Epoch train PR loss : 0.3946167528629303
+Epoch valid PR loss : 4.7150797843933105
+Epoch train RT loss : 0.7691405415534973
+Epoch valid RT loss : 0.9786821007728577
+Epoch train RR loss : 1.3432466983795166
+Epoch valid RR loss : 2.5161032676696777
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 11
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5707414150238037
+Epoch valid total loss : 9.920022964477539
+Epoch train ID loss : 0.12286538630723953
+Epoch valid ID loss : 10.233924865722656
+Epoch train PR loss : 0.37821531295776367
+Epoch valid PR loss : 4.708025932312012
+Epoch train RT loss : 0.6636790633201599
+Epoch valid RT loss : 1.4911308288574219
+Epoch train RR loss : 1.3203508853912354
+Epoch valid RR loss : 2.46525239944458
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 12
+Start validation.
+Epoch train total loss : 0.5728793740272522
+Epoch valid total loss : 9.346784591674805
+Epoch train ID loss : 0.12087096273899078
+Epoch valid ID loss : 9.543427467346191
+Epoch train PR loss : 0.3708384335041046
+Epoch valid PR loss : 4.724760055541992
+Epoch train RT loss : 0.6880757212638855
+Epoch valid RT loss : 1.390541434288025
+Epoch train RR loss : 1.3219985961914062
+Epoch valid RR loss : 2.444901704788208
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 13
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5569936633110046
+Epoch valid total loss : 9.254673957824707
+Epoch train ID loss : 0.1204146295785904
+Epoch valid ID loss : 9.453605651855469
+Epoch train PR loss : 0.36350616812705994
+Epoch valid PR loss : 4.938659191131592
+Epoch train RT loss : 0.6324323415756226
+Epoch valid RT loss : 1.0582014322280884
+Epoch train RR loss : 1.3073707818984985
+Epoch valid RR loss : 2.4620988368988037
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 14
+Start validation.
+Epoch train total loss : 0.5605436563491821
+Epoch valid total loss : 9.003175735473633
+Epoch train ID loss : 0.12021230906248093
+Epoch valid ID loss : 9.275923728942871
+Epoch train PR loss : 0.3531281352043152
+Epoch valid PR loss : 4.5064592361450195
+Epoch train RT loss : 0.6696168184280396
+Epoch valid RT loss : 0.9393597841262817
+Epoch train RR loss : 1.2991231679916382
+Epoch valid RR loss : 2.4663639068603516
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 15
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5533422827720642
+Epoch valid total loss : 9.406416893005371
+Epoch train ID loss : 0.12021628767251968
+Epoch valid ID loss : 9.705340385437012
+Epoch train PR loss : 0.3495682179927826
+Epoch valid PR loss : 4.7676262855529785
+Epoch train RT loss : 0.65059894323349
+Epoch valid RT loss : 0.9562082886695862
+Epoch train RR loss : 1.2856789827346802
+Epoch valid RR loss : 2.4868826866149902
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 16
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.54640793800354
+Epoch valid total loss : 9.081399917602539
+Epoch train ID loss : 0.12016254663467407
+Epoch valid ID loss : 9.29354190826416
+Epoch train PR loss : 0.3374323546886444
+Epoch valid PR loss : 4.581421852111816
+Epoch train RT loss : 0.6241198182106018
+Epoch valid RT loss : 1.1881804466247559
+Epoch train RR loss : 1.2898375988006592
+Epoch valid RR loss : 2.4632346630096436
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 17
+Start validation.
+Epoch train total loss : 0.5508800148963928
+Epoch valid total loss : 8.864925384521484
+Epoch train ID loss : 0.11859358847141266
+Epoch valid ID loss : 9.064101219177246
+Epoch train PR loss : 0.3370489776134491
+Epoch valid PR loss : 4.565824508666992
+Epoch train RT loss : 0.6518135070800781
+Epoch valid RT loss : 1.0301190614700317
+Epoch train RR loss : 1.2911629676818848
+Epoch valid RR loss : 2.4722752571105957
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 18
+Start validation.
+Epoch train total loss : 0.5558732748031616
+Epoch valid total loss : 9.452041625976562
+Epoch train ID loss : 0.11975541710853577
+Epoch valid ID loss : 9.748932838439941
+Epoch train PR loss : 0.34017467498779297
+Epoch valid PR loss : 4.363794326782227
+Epoch train RT loss : 0.6802018880844116
+Epoch valid RT loss : 1.4204365015029907
+Epoch train RR loss : 1.2799674272537231
+Epoch valid RR loss : 2.4802346229553223
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 19
+Start validation.
+Epoch train total loss : 0.5535298585891724
+Epoch valid total loss : 9.46591854095459
+Epoch train ID loss : 0.11936526745557785
+Epoch valid ID loss : 9.762362480163574
+Epoch train PR loss : 0.319902241230011
+Epoch valid PR loss : 4.786932945251465
+Epoch train RT loss : 0.6954079270362854
+Epoch valid RT loss : 1.0206788778305054
+Epoch train RR loss : 1.2748782634735107
+Epoch valid RR loss : 2.4725213050842285
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 20
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5336880087852478
+Epoch valid total loss : 9.35715103149414
+Epoch train ID loss : 0.11883146315813065
+Epoch valid ID loss : 9.623120307922363
+Epoch train PR loss : 0.304683119058609
+Epoch valid PR loss : 4.621714115142822
+Epoch train RT loss : 0.6084522008895874
+Epoch valid RT loss : 1.1953390836715698
+Epoch train RR loss : 1.2799791097640991
+Epoch valid RR loss : 2.4762210845947266
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 21
+Start validation.
+Epoch train total loss : 0.5387459397315979
+Epoch valid total loss : 8.83346939086914
+Epoch train ID loss : 0.11963511258363724
+Epoch valid ID loss : 9.027234077453613
+Epoch train PR loss : 0.32926180958747864
+Epoch valid PR loss : 4.680046081542969
+Epoch train RT loss : 0.6197373867034912
+Epoch valid RT loss : 0.9107640981674194
+Epoch train RR loss : 1.266189694404602
+Epoch valid RR loss : 2.4675891399383545
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 22
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5303241014480591
+Epoch valid total loss : 9.162970542907715
+Epoch train ID loss : 0.11874618381261826
+Epoch valid ID loss : 9.398787498474121
+Epoch train PR loss : 0.30886250734329224
+Epoch valid PR loss : 4.4492692947387695
+Epoch train RT loss : 0.5929402709007263
+Epoch valid RT loss : 1.3196022510528564
+Epoch train RR loss : 1.274832844734192
+Epoch valid RR loss : 2.450836658477783
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 23
+Start validation.
+Epoch train total loss : 0.533464252948761
+Epoch valid total loss : 9.164368629455566
+Epoch train ID loss : 0.11891995370388031
+Epoch valid ID loss : 9.376200675964355
+Epoch train PR loss : 0.30422401428222656
+Epoch valid PR loss : 4.627297878265381
+Epoch train RT loss : 0.6235340237617493
+Epoch valid RT loss : 1.2258667945861816
+Epoch train RR loss : 1.2638835906982422
+Epoch valid RR loss : 2.4638710021972656
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 24
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.524215579032898
+Epoch valid total loss : 9.19803524017334
+Epoch train ID loss : 0.11926373839378357
+Epoch valid ID loss : 9.526702880859375
+Epoch train PR loss : 0.3058095872402191
+Epoch valid PR loss : 4.4238362312316895
+Epoch train RT loss : 0.5804769396781921
+Epoch valid RT loss : 0.9985600113868713
+Epoch train RR loss : 1.2577364444732666
+Epoch valid RR loss : 2.460961103439331
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 25
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5185714960098267
+Epoch valid total loss : 9.227787017822266
+Epoch train ID loss : 0.11884839832782745
+Epoch valid ID loss : 9.53266716003418
+Epoch train PR loss : 0.30404698848724365
+Epoch valid PR loss : 4.555353164672852
+Epoch train RT loss : 0.5579429864883423
+Epoch valid RT loss : 0.9908425211906433
+Epoch train RR loss : 1.2554739713668823
+Epoch valid RR loss : 2.4620814323425293
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 26
+Start validation.
+Epoch train total loss : 0.529746413230896
+Epoch valid total loss : 9.085343360900879
+Epoch train ID loss : 0.11941085755825043
+Epoch valid ID loss : 9.398157119750977
+Epoch train PR loss : 0.2964819073677063
+Epoch valid PR loss : 4.4930830001831055
+Epoch train RT loss : 0.6264427900314331
+Epoch valid RT loss : 0.8975496888160706
+Epoch train RR loss : 1.2481637001037598
+Epoch valid RR loss : 2.4434614181518555
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 27
+Start validation.
+Epoch train total loss : 0.5209248065948486
+Epoch valid total loss : 8.831226348876953
+Epoch train ID loss : 0.11792625486850739
+Epoch valid ID loss : 9.036783218383789
+Epoch train PR loss : 0.2995573580265045
+Epoch valid PR loss : 4.360815048217773
+Epoch train RT loss : 0.5730544924736023
+Epoch valid RT loss : 1.1560413837432861
+Epoch train RR loss : 1.2603068351745605
+Epoch valid RR loss : 2.4921534061431885
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 28
+Start validation.
+Epoch train total loss : 0.5241944789886475
+Epoch valid total loss : 9.190750122070312
+Epoch train ID loss : 0.11827106773853302
+Epoch valid ID loss : 9.556686401367188
+Epoch train PR loss : 0.3002438545227051
+Epoch valid PR loss : 4.293224811553955
+Epoch train RT loss : 0.596089243888855
+Epoch valid RT loss : 0.9896162748336792
+Epoch train RR loss : 1.251555323600769
+Epoch valid RR loss : 2.44417405128479
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 29
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5174500346183777
+Epoch valid total loss : 8.921234130859375
+Epoch train ID loss : 0.11759176850318909
+Epoch valid ID loss : 9.115141868591309
+Epoch train PR loss : 0.3035734295845032
+Epoch valid PR loss : 4.4571099281311035
+Epoch train RT loss : 0.5716365575790405
+Epoch valid RT loss : 1.2094879150390625
+Epoch train RR loss : 1.2416729927062988
+Epoch valid RR loss : 2.4789986610412598
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 30
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.513003945350647
+Epoch valid total loss : 8.998737335205078
+Epoch train ID loss : 0.11773953586816788
+Epoch valid ID loss : 9.173344612121582
+Epoch train PR loss : 0.289076566696167
+Epoch valid PR loss : 4.496582508087158
+Epoch train RT loss : 0.5622308254241943
+Epoch valid RT loss : 1.3617192506790161
+Epoch train RR loss : 1.2427541017532349
+Epoch valid RR loss : 2.4419894218444824
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 31
+Start validation.
+Epoch train total loss : 0.5139764547348022
+Epoch valid total loss : 9.036474227905273
+Epoch train ID loss : 0.11747083812952042
+Epoch valid ID loss : 9.279909133911133
+Epoch train PR loss : 0.29119202494621277
+Epoch valid PR loss : 4.445778846740723
+Epoch train RT loss : 0.5658291578292847
+Epoch valid RT loss : 1.1445642709732056
+Epoch train RR loss : 1.2429777383804321
+Epoch valid RR loss : 2.472379207611084
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 32
+Start validation.
+Epoch train total loss : 0.516194224357605
+Epoch valid total loss : 8.959894180297852
+Epoch train ID loss : 0.11716524511575699
+Epoch valid ID loss : 9.249898910522461
+Epoch train PR loss : 0.28760093450546265
+Epoch valid PR loss : 4.461668968200684
+Epoch train RT loss : 0.5817247033119202
+Epoch valid RT loss : 0.9018846154212952
+Epoch train RR loss : 1.242984414100647
+Epoch valid RR loss : 2.436331033706665
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 33
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5118497014045715
+Epoch valid total loss : 9.213167190551758
+Epoch train ID loss : 0.11692824214696884
+Epoch valid ID loss : 9.484383583068848
+Epoch train PR loss : 0.2938697040081024
+Epoch valid PR loss : 4.5936198234558105
+Epoch train RT loss : 0.565266489982605
+Epoch valid RT loss : 1.0049787759780884
+Epoch train RR loss : 1.2323992252349854
+Epoch valid RR loss : 2.529703140258789
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 34
+Start validation.
+Epoch train total loss : 0.5153839588165283
+Epoch valid total loss : 8.931757926940918
+Epoch train ID loss : 0.1162157729268074
+Epoch valid ID loss : 9.195239067077637
+Epoch train PR loss : 0.29236143827438354
+Epoch valid PR loss : 4.491366863250732
+Epoch train RT loss : 0.5847028493881226
+Epoch valid RT loss : 0.9489341974258423
+Epoch train RR loss : 1.234992265701294
+Epoch valid RR loss : 2.437533378601074
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 35
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5101475119590759
+Epoch valid total loss : 9.16169261932373
+Epoch train ID loss : 0.11646725237369537
+Epoch valid ID loss : 9.451766014099121
+Epoch train PR loss : 0.29265451431274414
+Epoch valid PR loss : 4.416335105895996
+Epoch train RT loss : 0.5587652325630188
+Epoch valid RT loss : 1.1181117296218872
+Epoch train RR loss : 1.2334487438201904
+Epoch valid RR loss : 2.4669432640075684
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 36
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.5033233165740967
+Epoch valid total loss : 9.027342796325684
+Epoch train ID loss : 0.11614912748336792
+Epoch valid ID loss : 9.299802780151367
+Epoch train PR loss : 0.28261908888816833
+Epoch valid PR loss : 4.575751781463623
+Epoch train RT loss : 0.5347167253494263
+Epoch valid RT loss : 0.9044315218925476
+Epoch train RR loss : 1.2346844673156738
+Epoch valid RR loss : 2.457317590713501
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 37
+Start validation.
+Epoch train total loss : 0.5039604902267456
+Epoch valid total loss : 9.127025604248047
+Epoch train ID loss : 0.11548744887113571
+Epoch valid ID loss : 9.439103126525879
+Epoch train PR loss : 0.2781684994697571
+Epoch valid PR loss : 4.4424052238464355
+Epoch train RT loss : 0.5506042838096619
+Epoch valid RT loss : 0.9502964019775391
+Epoch train RR loss : 1.2290794849395752
+Epoch valid RR loss : 2.4860048294067383
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 38
+Start validation.
+Epoch train total loss : 0.5088845491409302
+Epoch valid total loss : 9.05541706085205
+Epoch train ID loss : 0.11573542654514313
+Epoch valid ID loss : 9.28045654296875
+Epoch train PR loss : 0.28445306420326233
+Epoch valid PR loss : 4.661624908447266
+Epoch train RT loss : 0.5755571126937866
+Epoch valid RT loss : 1.0470677614212036
+Epoch train RR loss : 1.221470832824707
+Epoch valid RR loss : 2.4465510845184326
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 39
+Start validation.
+Epoch train total loss : 0.5070359110832214
+Epoch valid total loss : 8.918455123901367
+Epoch train ID loss : 0.11496558785438538
+Epoch valid ID loss : 9.193044662475586
+Epoch train PR loss : 0.2836197018623352
+Epoch valid PR loss : 4.4360456466674805
+Epoch train RT loss : 0.557120144367218
+Epoch valid RT loss : 0.8997139930725098
+Epoch train RR loss : 1.2345775365829468
+Epoch valid RR loss : 2.4843456745147705
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 40
+Start validation.
+Epoch train total loss : 0.5084957480430603
+Epoch valid total loss : 8.838286399841309
+Epoch train ID loss : 0.11559046804904938
+Epoch valid ID loss : 9.056568145751953
+Epoch train PR loss : 0.28358641266822815
+Epoch valid PR loss : 4.53681755065918
+Epoch train RT loss : 0.5695086121559143
+Epoch valid RT loss : 0.9725364446640015
+Epoch train RR loss : 1.22702157497406
+Epoch valid RR loss : 2.455815315246582
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 41
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.497996985912323
+Epoch valid total loss : 9.18635082244873
+Epoch train ID loss : 0.11489859968423843
+Epoch valid ID loss : 9.369318962097168
+Epoch train PR loss : 0.27985960245132446
+Epoch valid PR loss : 4.405660152435303
+Epoch train RT loss : 0.5259850025177002
+Epoch valid RT loss : 1.5236550569534302
+Epoch train RR loss : 1.2245458364486694
+Epoch valid RR loss : 2.5251588821411133
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 42
+Start validation.
+Epoch train total loss : 0.5038080811500549
+Epoch valid total loss : 9.072608947753906
+Epoch train ID loss : 0.11460033804178238
+Epoch valid ID loss : 9.329455375671387
+Epoch train PR loss : 0.2812992334365845
+Epoch valid PR loss : 4.514035701751709
+Epoch train RT loss : 0.5570380091667175
+Epoch valid RT loss : 0.9801311492919922
+Epoch train RR loss : 1.2223016023635864
+Epoch valid RR loss : 2.5510618686676025
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 43
+Start validation.
+Saving model multi_task_net to : ./results/
+Epoch train total loss : 0.4927544891834259
+Epoch valid total loss : 9.138283729553223
+Epoch train ID loss : 0.11429072171449661
+Epoch valid ID loss : 9.4180908203125
+Epoch train PR loss : 0.2770436704158783
+Epoch valid PR loss : 4.422382831573486
+Epoch train RT loss : 0.5131140947341919
+Epoch valid RT loss : 1.1190147399902344
+Epoch train RR loss : 1.216451644897461
+Epoch valid RR loss : 2.4776601791381836
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 44
+Start validation.
+Epoch train total loss : 0.4965716600418091
+Epoch valid total loss : 9.010517120361328
+Epoch train ID loss : 0.11373036354780197
+Epoch valid ID loss : 9.274503707885742
+Epoch train PR loss : 0.2789837419986725
+Epoch valid PR loss : 4.490321636199951
+Epoch train RT loss : 0.5338309407234192
+Epoch valid RT loss : 0.9822640419006348
+Epoch train RR loss : 1.215122103691101
+Epoch valid RR loss : 2.481975555419922
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 45
+Start validation.
+Epoch train total loss : 0.5027328133583069
+Epoch valid total loss : 9.065089225769043
+Epoch train ID loss : 0.11337778717279434
+Epoch valid ID loss : 9.378793716430664
+Epoch train PR loss : 0.28036102652549744
+Epoch valid PR loss : 4.3676981925964355
+Epoch train RT loss : 0.5664721131324768
+Epoch valid RT loss : 0.9419172406196594
+Epoch train RR loss : 1.2133198976516724
+Epoch valid RR loss : 2.500650405883789
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 46
+Start validation.
+Epoch train total loss : 0.5006965398788452
+Epoch valid total loss : 9.036263465881348
+Epoch train ID loss : 0.11311591416597366
+Epoch valid ID loss : 9.301168441772461
+Epoch train PR loss : 0.28178101778030396
+Epoch valid PR loss : 4.444900035858154
+Epoch train RT loss : 0.5578426122665405
+Epoch valid RT loss : 1.085273265838623
+Epoch train RR loss : 1.2113951444625854
+Epoch valid RR loss : 2.4464845657348633
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 47
+Start validation.
+Epoch train total loss : 0.49598267674446106
+Epoch valid total loss : 8.878937721252441
+Epoch train ID loss : 0.11272776871919632
+Epoch valid ID loss : 9.130780220031738
+Epoch train PR loss : 0.2822599709033966
+Epoch valid PR loss : 4.462322235107422
+Epoch train RT loss : 0.5263296961784363
+Epoch valid RT loss : 0.9356626868247986
+Epoch train RR loss : 1.2204124927520752
+Epoch valid RR loss : 2.4735803604125977
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 48
+Start validation.
+Epoch train total loss : 0.4933704733848572
+Epoch valid total loss : 9.31650161743164
+Epoch train ID loss : 0.11293197423219681
+Epoch valid ID loss : 9.527963638305664
+Epoch train PR loss : 0.2730805277824402
+Epoch valid PR loss : 4.330168724060059
+Epoch train RT loss : 0.5321052074432373
+Epoch valid RT loss : 1.645140528678894
+Epoch train RR loss : 1.209938406944275
+Epoch valid RR loss : 2.495354652404785
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+Epoch : 49
+Start validation.
+Epoch train total loss : 0.49632614850997925
+Epoch valid total loss : 9.008255958557129
+Epoch train ID loss : 0.11293451488018036
+Epoch valid ID loss : 9.281614303588867
+Epoch train PR loss : 0.2728172838687897
+Epoch valid PR loss : 4.618557453155518
+Epoch train RT loss : 0.5389688014984131
+Epoch valid RT loss : 0.8735285401344299
+Epoch train RR loss : 1.2181066274642944
+Epoch valid RR loss : 2.4227330684661865
+Accuracy on train data : 97.34597156398104 %
+Accuracy on valid data : 3.0456852791878175 %
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu Apr 11 21:40:59 2019
+Driver Version                      : 410.73
+CUDA Version                        : 10.0
+
+Attached GPUs                       : 16
+GPU 00000000:14:00.0
+    Accounting Mode                 : Enabled
+    Accounting Mode Buffer Size     : 4000
+    Accounted Processes
+        Process ID                  : 74056
+            GPU Utilization         : 29 %
+            Memory Utilization      : 5 %
+            Max memory usage        : 366 MiB
+            Time                    : 867686 ms
+            Is Running              : 0
+        Process ID                  : 10908
+            GPU Utilization         : 29 %
+            Memory Utilization      : 5 %
+            Max memory usage        : 0 MiB
+            Time                    : 867816 ms
+            Is Running              : 0
+
